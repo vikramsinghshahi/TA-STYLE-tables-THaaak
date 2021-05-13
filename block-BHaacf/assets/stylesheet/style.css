@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*normal class*/
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.container {max-width:1000px;
+margin: 0 auto;
+padding: 20px 0;}
+
+.flex { display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.flex-45 { flex: 0 1 45%;}
+
+.flex-50 { flex: 0 1 50%;}
+
+.flex-30 { flex:0 1 30%;}
+
+.btn { text-decoration: none;
+	color: white;
+	background-color:rgb(240, 80, 32) ;
+	padding: 14px 20px;}
+
+/*custom editing*/
+
+header { background-color: rgb(255, 255, 255,0.5);}
+.brand{ font-size: 26px;
+color: white;
+font-weight: 700;}
+
+.brand strong { color: rgb(240, 80, 32);}
+
+.header-nav a{ text-decoration: none;
+font-size: 14px;
+margin-right: 24px;
+color: white;}
+
+.header-nav .home-link{ color: rgb(240, 80, 32);}
+
+.header-nav .signup-link { padding: 10px 20px;
+background-color:rgb(240, 80, 32) ;}
+
+/*hero-section*/
+
+.hero-section { text-align: center;}
+
+#myVideo { position: relative;
+margin-top:-65px ;
+width: 100%;
+z-index: -1;}
+
+.hero-section-color { position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(46, 57, 85, 0.5);
+height: 860px;
+z-index: -1;}
+
+.hero-heading { position: relative;
+bottom: 400px;}
+
+.hero-heading p{ font-size: 20px;
+color: white;
+font-weight: 700;}
+
+.hero-heading h2{ font-size: 50px;
+color:white;
+font-weight: bold;
+margin:40px 0;}
+
+.hero-heading h2 strong { color: rgb(240, 80, 32);}
+
+.btn { text-decoration: none;
+color: white;
+background-color:rgb(240, 80, 32) ;
+padding: 12px 16px;}
+
+/*programme section*/
+
+.program{ text-align: center;}
+
+.program h3{ font-size: 30px;
+font-weight: 800;
+margin-bottom: 20px;}
+
+.program p{ padding: 20px 200px;
+line-height: 1.5;}
+
+.program-list{ flex-wrap: wrap;}
+
+.program-col { margin-bottom: 50px;}
+
+.program-col img {width: 80px;
+margin-right: 20px;}
+
+.program-details h4{ font-size: 22px;
+font-size: bold;}
+
+.program-details p{ font-size: 14px;
+line-height: 1.3;
+padding: 8px 0;}
+
+.program-details a{ text-decoration: none;
+color:rgb(240, 80, 32) ;
+font-size: 12px;
+}
+
+/*membership section*/
+
+.membership { background-image: url(../media/cta-bg.jpg);}
+.membership-info{ padding: 100px 0;
+	text-align: center;}
+.membership-info h3 { font-size: 32px;
+	font-weight: bolder;
+color: white;}
+.membership-info h3 strong { color:rgb(240, 80, 32);}
+
+.membership-info p{ color: white;
+font-size: 14px;
+padding: 30px 80px;}
+
+/*classes- section*/
+.classes-section{ text-align: center;
+padding: 50px 0;}
+
+.classes-section h3{ font-size: 30px;
+font-weight: 800;
+margin-bottom: 20px;}
+.classes-section h3 strong { color: rgb(240, 80, 32) ;}
+
+.classes-section p{ padding: 20px 200px;
+line-height: 1.5;}
+
+.classes-col {justify-content: right;}
+
+
+.class-deatils li{ font-size: 16px;
+padding: 10px 30px;
+border:  solid rgb(247, 247, 247);
+margin-bottom: 20px;
+box-shadow: 4px 4px 2px rgb(236, 236, 236);}
+
+.class-deatils li a:hover{ color: rgb(240, 80, 32);}
+.class-deatils img { margin-right: 10px;
+	vertical-align: middle;}
+
+	.class-deatils li a { text-decoration: none;
+	color: black;
+margin-left: 10px;}
+
+.class-deatils .btn { text-align: center ;
+box-shadow: none;}
+
+.class-deatils .btn a{ color: white;}
+
+.classes-chart { display: flex;
+justify-content: left;}
+
+.flex-new { display: flex;
+justify-content: left;
+align-items: flex-start;
+margin-top: 40px;
+padding-bottom: 50px;}
+
+.classes-article { margin-left: 40px;}
+
+.classes-article h4 { font-size: 22px;
+padding: 10px 0;
+font-weight: bolder;}
+
+.classes-article p { font-size: 14px;
+color: grey;
+padding-bottom: 30px;}
+
+/*classes timing table section*/
+
+.class-timing{ text-align: center;
+	padding: 80px 0;
+background-image: url(../media/schedule-bg.jpg);}
+	
+	.class-timing h3{ font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 20px;
+color:white}
+
+	.class-timing h3 strong { color: rgb(240, 80, 32) ;}
+	
+	.class-timing p{ padding: 20px 200px;
+	line-height: 1.5;
+color: white;}
+
+table { margin:0 auto;
+border:1px solid white ;}
+
+caption { font-size: 14px;
+	color: white;
+	margin: 30px 0;
+}
+
+caption strong { color:rgb(240, 80, 32);}
+
+td { border: 1px solid white;
+padding: 30px 20px;
+color: white;
+font-size: 14px;}
+
+
+/*-Trainer detils section*/
+
+.trainer-section{ text-align: center;
+	padding: 80px 0;}
+	
+	.trainer-section h3{ font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 20px;}
+
+	.trainer-section h3 strong { color: rgb(240, 80, 32) ;}
+	
+	.trainer-section p{ padding: 20px 200px;
+	line-height: 1.5;
+}
+
+.trainer-details {padding: 40px 0;
+padding-left: 20px;
+box-shadow: 7px 7px 7px rgb(238, 238, 238);}
+.trainer-details img { width:90%;}
+
+.trainer-details h3 { font-size: 12px;
+	color:rgb(240, 80, 32);}
+
+	.trainer-details h4{ font-size: 20px;
+	font-weight: 800;
+padding-top:10px ;
+padding-bottom:10px;}
+
+.trainer-details p{ font-size: 16px;
+line-height: 1.5;
+color:grey;
+padding-bottom: 10px;}
+
+.trainer-details .flex { display: flex;
+justify-content: left;}
+
+.trainer-details .flex a{ text-decoration: none;
+margin-right: 20px;
+}
+
+
+/*contact -form section*/
+
+.contact-section { margin: 50px 0;}
+
+.contact{ background-image: url(../media/contact-bg.jpg);
+background-size: contain;
+height: 450px;}
+
+.footer-form { width:70%;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+position: relative;
+left: 50px;
+top:50px;
+background-color: white;}
+
+.footer-form-control {width: 45%;
+padding: 10px 0;}
+.footer-text-control { width: 92%;
+margin: 10px 0;
+padding: 10px 0;}
+.footer-text-area{ width: 92%;
+margin-bottom: 20px;}
+
+/*footer*/
+footer { text-align: center;
+padding: 20px 0;}
+
+
